@@ -1,14 +1,3 @@
-# import requests
-
-# def get_user_tasks(user_id: str):
-#     url = f"http://localhost:5000/tasks?userId={user_id}"  # backend1 API endpoint
-#     response = requests.get(url)
-#     response.raise_for_status()
-#     return response.json()
-
-
-
-
 import requests
 
 def get_user_tasks(user_id: str):
