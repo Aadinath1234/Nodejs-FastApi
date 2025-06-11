@@ -1,8 +1,4 @@
-Here's a tailored `README.md` file for your **Full Stack Task Manager App**, incorporating the updated stack where **Node.js handles CRUD operations** and **FastAPI (Python) is used for CSV export**:
 
----
-
-```markdown
 # 📝 Full Stack Task Manager App
 
 A full-stack web application for managing tasks with user authentication, CRUD functionality, and CSV export. Built with **React**, **Tailwind CSS**, and **DaisyUI** on the frontend; uses **Node.js** for authentication and CRUD operations; and **FastAPI** (Python) for exporting tasks as a CSV file.
