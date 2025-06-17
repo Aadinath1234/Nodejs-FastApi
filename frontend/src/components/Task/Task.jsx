@@ -303,6 +303,13 @@ const Task = () => {
     }
   };
 
+ const handleLogout = () => {
+    localStorage.removeItem("user");
+    alert("Logged out successfully"); 
+    navigate("/"); 
+ }; 
+
+
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h2 className="text-2xl font-bold mb-4">Manage Tasks</h2>
@@ -345,9 +352,12 @@ const Task = () => {
         </button>
       </form>
 
-      <div className="mb-4 text-right">
-        <button onClick={handleExport} className="btn btn-secondary">
+      <div className="mb-4 text-right gap-4  ">
+        <button onClick={handleExport} className="btn bg-blue-200 mr-4 ">
           Export to Excel
+        </button>
+        <button onClick={handleLogout} className='btn bg-blue-200  '>
+          Logout
         </button>
       </div>
 
@@ -369,12 +379,12 @@ const Task = () => {
               </p>
             </div>
             <div className="flex gap-2">
-              <button onClick={() => handleEdit(task)} className="btn btn-sm">
+              <button onClick={() => handleEdit(task)} className="btn bg-black text-white">
                 Edit
               </button>
               <button
                 onClick={() => handleDelete(task._id)}
-                className="btn btn-sm btn-error"
+                className="btn bg-black text-white"
               >
                 Delete
               </button>
