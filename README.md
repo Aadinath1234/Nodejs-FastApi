@@ -1,6 +1,6 @@
 # 📝 Full Stack Task Manager App
 
-A full-stack web application for managing tasks with user authentication, CRUD functionality, and CSV export. Built with **React**, **Tailwind CSS**, and **DaisyUI** on the frontend. The backend uses **Node.js + MongoDB** for authentication and task CRUD operations, and **FastAPI** (Python) for exporting tasks as a CSV file.
+A full-stack web application for managing tasks with user authentication, CRUD functionality, and CSV export. Built with **React**, **Tailwind CSS**, and **DaisyUI** on the frontend. The backend uses **Node.js + MongoDB** for authentication and task CRUD operations, and **FastAPI** (Python) for exporting tasks as a CSV file. Design and Developed for : Living Things, 6036, 6th Floor, Rahul Bajaj Technology and Innovation Center (RBTIC), IIT Bombay, Powai, Mumbai, Maharashtra - 400 076. #https://in.linkedin.com/company/living-things-feel-free
 
 ---
 
